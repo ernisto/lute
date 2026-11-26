@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: ["primary", "release/**"]
+    branches: ["primary", "fork", "release/**"]
   pull_request:
-    branches: ["primary"]
+    branches: ["primary", "fork"]
   merge_group:
     branches: ["primary"]
 
